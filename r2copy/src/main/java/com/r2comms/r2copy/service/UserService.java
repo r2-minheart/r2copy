@@ -9,7 +9,11 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
+
+import org.springframework.data.domain.Sort;
 
 @Log4j2
 @Service
@@ -31,4 +35,11 @@ public class UserService {
             userRepository.save(user);
         }
     }
+
+	public List<UserResponseDto> getList() {
+		return userRepository.findAll(Sort.by(Sort.Direction.DESC, "userId"))
+				.stream()
+				.map(entity -> new UserResponseDto(entity))
+				.collect(Collectors.toList());	
+	}
 }

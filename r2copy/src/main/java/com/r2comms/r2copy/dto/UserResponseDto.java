@@ -13,6 +13,8 @@ import java.time.LocalDateTime;
 @ToString
 public class UserResponseDto {
     private Long userId;
+    
+    private String loginId;
     private String fullNameEn;
     private String password;
     private boolean isActive;
@@ -23,6 +25,8 @@ public class UserResponseDto {
 
     private void toUser(User entity) {
         this.userId = entity.getUserId();
+        
+        this.loginId = entity.getLoginId();
         this.fullNameEn = entity.getFullNameEn();
         this.password = entity.getPassword();
         this.isActive = entity.isActive();
