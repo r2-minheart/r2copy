@@ -1,0 +1,474 @@
+INFO  23-02-23 10:42:08[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 17280 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:42:08[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:42:08[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 10:42:08[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 10:42:08[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:42:08[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:42:08[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:42:08[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:42:08[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:42:08[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:42:08[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:42:08[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:42:08[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:42:08[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:42:08[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:42:09[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:42:09[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:42:09[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:42:09[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:42:09[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:42:09[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:42:09[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:42:09[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:42:09[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 859 ms
+INFO  23-02-23 10:42:09[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:42:09[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-02-23 10:42:09[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-02-23 10:42:09[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-02-23 10:42:09[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-02-23 10:42:09[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:42:10[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:42:10[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-02-23 10:42:10[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:42:10[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:42:10[restartedMain] [UserDetailsServiceAutoConfiguration:86] - 
+
+Using generated security password: 3e183666-a2ce-4c49-9a25-ede64acc3ce0
+
+INFO  23-02-23 10:42:10[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76f5de9, org.springframework.security.web.context.SecurityContextPersistenceFilter@5efaf759, org.springframework.security.web.header.HeaderWriterFilter@1705519a, org.springframework.security.web.csrf.CsrfFilter@5f9ae972, org.springframework.security.web.authentication.logout.LogoutFilter@2ada453a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28aba154, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5bec64a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4ec70c00, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@b59b79d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@705c8c9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79f644b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@864bf1a, org.springframework.security.web.session.SessionManagementFilter@5efbcae2, org.springframework.security.web.access.ExceptionTranslationFilter@22f8a514, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@801c5b2]
+INFO  23-02-23 10:42:10[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:42:10[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:42:10[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:42:10[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 2.722 seconds (JVM running for 3.242)
+INFO  23-02-23 10:42:36[Thread-5] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:42:36[Thread-5] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-02-23 10:42:36[Thread-5] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-02-23 10:42:36[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 17280 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:42:36[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:42:36[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:42:36[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:42:36[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:42:36[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:42:36[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:42:36[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:42:36[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:42:36[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:42:36[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:42:36[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:42:36[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:42:36[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:42:36[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:42:36[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:42:36[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:42:36[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:42:36[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:42:36[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:42:36[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:42:36[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 184 ms
+INFO  23-02-23 10:42:36[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:42:36[restartedMain] [HikariDataSource:110] - HikariPool-2 - Starting...
+INFO  23-02-23 10:42:36[restartedMain] [HikariDataSource:123] - HikariPool-2 - Start completed.
+INFO  23-02-23 10:42:36[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:42:36[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:42:36[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-02-23 10:42:36[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:42:36[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:42:36[restartedMain] [UserDetailsServiceAutoConfiguration:86] - 
+
+Using generated security password: 7a980c17-9995-4a3b-bd7e-ca7b2c0b6887
+
+INFO  23-02-23 10:42:36[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b73c66, org.springframework.security.web.context.SecurityContextPersistenceFilter@29729902, org.springframework.security.web.header.HeaderWriterFilter@66188b63, org.springframework.security.web.csrf.CsrfFilter@5201c88f, org.springframework.security.web.authentication.logout.LogoutFilter@5ca37eb0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@78253895, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5b6dfc82, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1c76d722, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@56213139, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@575da5cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75bc6fd7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d46b5a9, org.springframework.security.web.session.SessionManagementFilter@75eb6280, org.springframework.security.web.access.ExceptionTranslationFilter@5395b898, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@9a29fc5]
+INFO  23-02-23 10:42:36[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:42:36[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:42:36[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:42:36[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 0.347 seconds (JVM running for 29.319)
+INFO  23-02-23 10:42:36[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  23-02-23 10:42:53[Thread-7] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:42:53[Thread-7] [HikariDataSource:350] - HikariPool-2 - Shutdown initiated...
+INFO  23-02-23 10:42:53[Thread-7] [HikariDataSource:352] - HikariPool-2 - Shutdown completed.
+INFO  23-02-23 10:42:53[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 17280 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:42:53[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:42:53[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:42:53[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:42:53[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:42:53[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:42:53[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:42:53[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:42:53[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:42:53[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:42:53[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:42:53[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:42:53[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:42:53[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 152 ms
+INFO  23-02-23 10:42:53[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:42:53[restartedMain] [HikariDataSource:110] - HikariPool-3 - Starting...
+INFO  23-02-23 10:42:53[restartedMain] [HikariDataSource:123] - HikariPool-3 - Start completed.
+INFO  23-02-23 10:42:53[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:42:53[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:42:53[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-02-23 10:42:53[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:42:54[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:42:54[restartedMain] [UserDetailsServiceAutoConfiguration:86] - 
+
+Using generated security password: 4722e7da-c7c8-4a29-96f2-36bec3686ed0
+
+INFO  23-02-23 10:42:54[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42f8ea04, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b98435f, org.springframework.security.web.header.HeaderWriterFilter@d612b4f, org.springframework.security.web.csrf.CsrfFilter@26cbf0d2, org.springframework.security.web.authentication.logout.LogoutFilter@7f53110e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@56ac2e59, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2d533581, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4cc9aa9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@62a3de4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18547096, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c6b0b80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3325b28f, org.springframework.security.web.session.SessionManagementFilter@522c64a8, org.springframework.security.web.access.ExceptionTranslationFilter@15f4c163, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ca55ae8]
+INFO  23-02-23 10:42:54[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:42:54[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:42:54[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:42:54[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 0.304 seconds (JVM running for 46.548)
+INFO  23-02-23 10:42:54[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  23-02-23 10:42:58[RMI TCP Connection(2)-127.0.0.1] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159] - Application shutdown requested.
+INFO  23-02-23 10:42:58[RMI TCP Connection(2)-127.0.0.1] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:42:58[RMI TCP Connection(2)-127.0.0.1] [HikariDataSource:350] - HikariPool-3 - Shutdown initiated...
+INFO  23-02-23 10:42:58[RMI TCP Connection(2)-127.0.0.1] [HikariDataSource:352] - HikariPool-3 - Shutdown completed.
+INFO  23-02-23 10:43:01[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 23672 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:43:01[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:43:01[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 10:43:01[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 10:43:01[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:43:01[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:43:02[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:43:02[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:43:02[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:02[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:02[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:02[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:43:02[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:02[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:02[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:02[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:43:02[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:43:02[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:43:02[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:43:02[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:43:02[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:43:02[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:43:02[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:43:02[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 823 ms
+INFO  23-02-23 10:43:02[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:43:02[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-02-23 10:43:02[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-02-23 10:43:02[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-02-23 10:43:02[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-02-23 10:43:02[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:43:02[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:43:02[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-02-23 10:43:02[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:43:03[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:43:03[restartedMain] [UserDetailsServiceAutoConfiguration:86] - 
+
+Using generated security password: 37b53c35-8602-44e0-a60c-e45c9213833f
+
+INFO  23-02-23 10:43:03[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ed02631, org.springframework.security.web.context.SecurityContextPersistenceFilter@4437eadf, org.springframework.security.web.header.HeaderWriterFilter@1b887342, org.springframework.security.web.csrf.CsrfFilter@d72b3a7, org.springframework.security.web.authentication.logout.LogoutFilter@3320b283, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@166a1cae, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@10ccb124, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@13ff4020, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@50902e89, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27c87073, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75d854d2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42cad0b0, org.springframework.security.web.session.SessionManagementFilter@59cc102, org.springframework.security.web.access.ExceptionTranslationFilter@4fb8db9e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d08753f]
+INFO  23-02-23 10:43:03[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:43:03[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:43:03[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:43:03[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 2.447 seconds (JVM running for 2.964)
+INFO  23-02-23 10:43:19[Thread-5] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:43:19[Thread-5] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-02-23 10:43:19[Thread-5] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-02-23 10:43:19[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 23672 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:43:19[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:43:19[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:43:19[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:43:19[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:43:19[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:43:19[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:19[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:19[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:19[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:43:19[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:19[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:19[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:19[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:43:19[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:43:19[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:43:19[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:43:19[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:43:19[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:43:19[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:43:19[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:43:19[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 192 ms
+WARN  23-02-23 10:43:19[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:43:19[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:43:19[restartedMain] [HikariDataSource:110] - HikariPool-2 - Starting...
+INFO  23-02-23 10:43:19[restartedMain] [HikariDataSource:123] - HikariPool-2 - Start completed.
+INFO  23-02-23 10:43:19[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:43:19[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:43:19[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:43:19[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32368f3c, org.springframework.security.web.context.SecurityContextPersistenceFilter@40362368, org.springframework.security.web.header.HeaderWriterFilter@51035504, org.springframework.security.web.authentication.logout.LogoutFilter@5d7803bc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@554ab7ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d259f4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16455a9a, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2703e1af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32c3bb53, org.springframework.security.web.session.SessionManagementFilter@2a821b2a, org.springframework.security.web.access.ExceptionTranslationFilter@4a9af28b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@393592a9]
+INFO  23-02-23 10:43:19[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:43:19[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:43:19[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:43:19[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:43:19[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 0.429 seconds (JVM running for 19.32)
+INFO  23-02-23 10:43:19[restartedMain] [ConditionEvaluationDeltaLoggingListener:58] - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' webSecurityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebLayoutConfiguration#layoutDialect:
+      Did not match:
+         - @ConditionalOnMissingBean (types: nz.net.ultraq.thymeleaf.LayoutDialect; SearchStrategy: all) found beans of type 'nz.net.ultraq.thymeleaf.LayoutDialect' layoutDialect (OnBeanCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+INFO  23-02-23 10:43:34[Thread-7] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:43:34[Thread-7] [HikariDataSource:350] - HikariPool-2 - Shutdown initiated...
+INFO  23-02-23 10:43:34[Thread-7] [HikariDataSource:352] - HikariPool-2 - Shutdown completed.
+INFO  23-02-23 10:43:34[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 23672 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:43:34[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:43:34[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:43:34[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:43:34[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:43:34[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:43:34[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:34[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:34[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:34[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:43:34[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:34[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:34[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:34[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:43:34[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:43:34[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:43:34[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:43:34[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:43:34[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:43:34[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:43:34[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:43:34[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 164 ms
+WARN  23-02-23 10:43:34[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:43:34[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:43:34[restartedMain] [HikariDataSource:110] - HikariPool-3 - Starting...
+INFO  23-02-23 10:43:34[restartedMain] [HikariDataSource:123] - HikariPool-3 - Start completed.
+INFO  23-02-23 10:43:34[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:43:34[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:43:34[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:43:34[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2eb5bb30, org.springframework.security.web.context.SecurityContextPersistenceFilter@67dd94f2, org.springframework.security.web.header.HeaderWriterFilter@1214f086, org.springframework.security.web.authentication.logout.LogoutFilter@6e1e5dc7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@662d14ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e0dfaad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ba8af2a, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@32156700, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35fc5a43, org.springframework.security.web.session.SessionManagementFilter@92ef2f9, org.springframework.security.web.access.ExceptionTranslationFilter@718713cf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ea6ae93]
+INFO  23-02-23 10:43:34[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:43:35[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:43:35[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:43:35[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:43:35[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 0.375 seconds (JVM running for 34.433)
+INFO  23-02-23 10:43:35[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  23-02-23 10:43:57[Thread-11] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:43:57[Thread-11] [HikariDataSource:350] - HikariPool-3 - Shutdown initiated...
+INFO  23-02-23 10:43:57[Thread-11] [HikariDataSource:352] - HikariPool-3 - Shutdown completed.
+INFO  23-02-23 10:43:57[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 23672 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:43:57[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:43:57[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:43:57[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:43:57[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:43:57[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:43:57[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:57[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:57[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:57[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:43:57[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:43:57[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:57[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:43:57[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:43:57[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:43:57[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:43:57[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:43:57[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:43:57[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:43:57[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:43:57[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:43:57[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 161 ms
+WARN  23-02-23 10:43:57[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:43:57[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:43:57[restartedMain] [HikariDataSource:110] - HikariPool-4 - Starting...
+INFO  23-02-23 10:43:57[restartedMain] [HikariDataSource:123] - HikariPool-4 - Start completed.
+INFO  23-02-23 10:43:57[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:43:58[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:43:58[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:43:58[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@342fb6c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@9e8a0bb, org.springframework.security.web.header.HeaderWriterFilter@57cfe1, org.springframework.security.web.authentication.logout.LogoutFilter@1dc42717, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@529067c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7886da70, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46903a46, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1cc487c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b6bd80b, org.springframework.security.web.session.SessionManagementFilter@25264894, org.springframework.security.web.access.ExceptionTranslationFilter@ebfe402, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ec62bbb]
+INFO  23-02-23 10:43:58[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:43:58[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:43:58[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:43:58[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:43:58[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 0.638 seconds (JVM running for 57.602)
+INFO  23-02-23 10:43:58[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  23-02-23 10:44:18[Thread-15] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:44:18[Thread-15] [HikariDataSource:350] - HikariPool-4 - Shutdown initiated...
+INFO  23-02-23 10:44:18[Thread-15] [HikariDataSource:352] - HikariPool-4 - Shutdown completed.
+INFO  23-02-23 10:44:18[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 23672 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:44:18[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:44:18[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:44:18[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:44:18[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:44:18[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:44:18[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:44:18[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:44:18[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:44:18[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:44:18[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:44:18[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:44:18[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:44:18[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:44:18[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:44:18[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:44:18[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:44:18[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:44:18[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:44:18[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:44:18[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:44:18[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 166 ms
+WARN  23-02-23 10:44:18[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:44:18[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:44:18[restartedMain] [HikariDataSource:110] - HikariPool-5 - Starting...
+INFO  23-02-23 10:44:18[restartedMain] [HikariDataSource:123] - HikariPool-5 - Start completed.
+INFO  23-02-23 10:44:18[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:44:18[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:44:18[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:44:18[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ee028d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bde3361, org.springframework.security.web.header.HeaderWriterFilter@36096a1, org.springframework.security.web.authentication.logout.LogoutFilter@2c44d3d1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64c9be87, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a899f5d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ddbc333, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1b4338f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1356e682, org.springframework.security.web.session.SessionManagementFilter@1f9c9af4, org.springframework.security.web.access.ExceptionTranslationFilter@74bab98e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16cf628d]
+INFO  23-02-23 10:44:18[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:44:18[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:44:18[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:44:18[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:44:18[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 0.381 seconds (JVM running for 78.234)
+INFO  23-02-23 10:44:18[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  23-02-23 10:44:28[Thread-19] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:44:28[Thread-19] [HikariDataSource:350] - HikariPool-5 - Shutdown initiated...
+INFO  23-02-23 10:44:28[Thread-19] [HikariDataSource:352] - HikariPool-5 - Shutdown completed.
+INFO  23-02-23 10:44:28[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 23672 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:44:28[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:44:28[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:44:28[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:44:28[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:44:28[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:44:28[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:44:28[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:44:28[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:44:28[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:44:28[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:44:28[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:44:28[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:44:28[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:44:28[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:44:28[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:44:28[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:44:28[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:44:28[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:44:28[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:44:28[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:44:28[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 162 ms
+WARN  23-02-23 10:44:28[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:44:28[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:44:28[restartedMain] [HikariDataSource:110] - HikariPool-6 - Starting...
+INFO  23-02-23 10:44:28[restartedMain] [HikariDataSource:123] - HikariPool-6 - Start completed.
+INFO  23-02-23 10:44:28[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:44:28[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:44:28[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:44:28[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@89df27c, org.springframework.security.web.context.SecurityContextPersistenceFilter@122ef692, org.springframework.security.web.header.HeaderWriterFilter@cf99c61, org.springframework.security.web.authentication.logout.LogoutFilter@1cfec644, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c61e220, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78a7c9b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@387d5852, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@662f03a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25c27be6, org.springframework.security.web.session.SessionManagementFilter@6d05970a, org.springframework.security.web.access.ExceptionTranslationFilter@7e128e3a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66572e3]
+INFO  23-02-23 10:44:28[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:44:28[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:44:28[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:44:28[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:44:28[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 0.341 seconds (JVM running for 87.819)
+INFO  23-02-23 10:44:28[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  23-02-23 10:44:59[RMI TCP Connection(2)-127.0.0.1] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159] - Application shutdown requested.
+INFO  23-02-23 10:44:59[RMI TCP Connection(3)-127.0.0.1] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159] - Application shutdown requested.
+INFO  23-02-23 10:44:59[RMI TCP Connection(2)-127.0.0.1] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:44:59[RMI TCP Connection(2)-127.0.0.1] [HikariDataSource:350] - HikariPool-6 - Shutdown initiated...
+INFO  23-02-23 10:44:59[RMI TCP Connection(2)-127.0.0.1] [HikariDataSource:352] - HikariPool-6 - Shutdown completed.
+INFO  23-02-23 10:45:02[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 15364 (D:\eclipse_dev\workspace-rclone\r2copy\bin\main started by wowji in D:\eclipse_dev\workspace-rclone\r2copy)
+INFO  23-02-23 10:45:02[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 10:45:02[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 10:45:02[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 10:45:02[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 10:45:02[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 10:45:03[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 10:45:03[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 10:45:03[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:45:03[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:45:03[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:45:03[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 10:45:03[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 10:45:03[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:45:03[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 10:45:03[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 10:45:03[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 10:45:03[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 10:45:03[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 10:45:03[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:45:03[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 10:45:03[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 10:45:03[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 10:45:03[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 861 ms
+WARN  23-02-23 10:45:03[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 10:45:03[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 10:45:03[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-02-23 10:45:03[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-02-23 10:45:03[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-02-23 10:45:03[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-02-23 10:45:03[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 10:45:04[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 10:45:04[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 10:45:04[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f2ed465, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e0c933a, org.springframework.security.web.header.HeaderWriterFilter@4b95f94c, org.springframework.security.web.authentication.logout.LogoutFilter@f63ef0f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7be5c652, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51229ec4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62932565, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@68298fa7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ab955af, org.springframework.security.web.session.SessionManagementFilter@713f2c02, org.springframework.security.web.access.ExceptionTranslationFilter@27665ed2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a6bdaac]
+INFO  23-02-23 10:45:04[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 10:45:04[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 10:45:04[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 10:45:04[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 10:45:04[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 2.742 seconds (JVM running for 3.279)
+INFO  23-02-23 10:45:17[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-02-23 10:45:17[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-02-23 10:45:17[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-02-23 10:45:17[http-nio-8080-exec-2] [ApiCheckFilter:30] - REQUESTURI: /login
+WARN  23-02-23 10:45:18[http-nio-8080-exec-2] [FragmentProcessor:75] - You don't need to put the layout:fragment/data-layout-fragment attribute into the <head> section - the decoration process will automatically copy the <head> section of your content templates into your layout page.
+INFO  23-02-23 10:45:19[http-nio-8080-exec-10] [ApiCheckFilter:30] - REQUESTURI: /login
+INFO  23-02-23 10:45:24[http-nio-8080-exec-2] [ApiCheckFilter:30] - REQUESTURI: /
+INFO  23-02-23 10:45:24[http-nio-8080-exec-1] [ApiCheckFilter:30] - REQUESTURI: /favicon.ico
+INFO  23-02-23 10:45:45[http-nio-8080-exec-2] [ApiCheckFilter:30] - REQUESTURI: /
+INFO  23-02-23 10:45:57[http-nio-8080-exec-1] [ApiCheckFilter:30] - REQUESTURI: /
+INFO  23-02-23 10:46:18[http-nio-8080-exec-10] [ApiCheckFilter:30] - REQUESTURI: /
+INFO  23-02-23 10:46:19[http-nio-8080-exec-10] [ApiCheckFilter:30] - REQUESTURI: /
