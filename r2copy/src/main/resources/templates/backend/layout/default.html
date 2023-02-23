@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" 
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
+	xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+   
+    <!-- 공통 헤더-->   
+	<head th:replace="~{backend/common/header :: headerFragment}">
+		<title layout:title-pattern="$LAYOUT_TITLE - $CONTENT_TITLE"></title>
+	</head>
+	
+	<!-- 공통 스크립트-->
+    <th:block th:replace="~{backend/common/script :: scriptFragment}"></th:block>
+
+    <body id="page-top">
+
+        <div id="wrapper">
+            <!-- 사이드바-->
+            <th:block th:replace="~{backend/common/sidebar :: sidebarFragment}"></th:block>
+
+            <div id="content-wrapper" class="d-flex flex-column">
+                <div id="content">
+                    <!-- 상단바-->
+                    <th:block th:replace="~{backend/common/topbar :: topbarFragment}"></th:block>
+                    
+                    <!-- 본문-->
+                    <th:block layout:fragment="content"></th:block>
+                    
+                </div>
+                <!-- 공통 하단-->
+                <th:block th:replace="~{backend/common/footer :: footerFragment}"></th:block>
+            </div>
+        </div>
+      
+          <!-- Scroll to Top Button-->
+    	<a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+        </a>    
+        
+        <script th:src="@{/admin/js/sb-admin-2.min.js}"></script> 
+        
+    </body>
+
+</html>

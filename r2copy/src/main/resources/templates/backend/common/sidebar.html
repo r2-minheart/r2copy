@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.w3.org/1999/xhtml">
+
+<th:block th:fragment="sidebarFragment">
+
+	<!-- Sidebar -->
+	<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+		<!-- Sidebar - Brand -->
+		<a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+			<div class="sidebar-brand-text mx-2">R2COMMS</div>
+		</a>
+
+		<!-- Divider -->
+		<hr class="sidebar-divider my-0">
+
+		<!-- Nav Item - Dashboard -->
+		<li class="nav-item active"><a class="nav-link a" href="/">
+				<i class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span>
+		</a></li>
+
+
+		<!-- Divider -->
+		<hr class="sidebar-divider">
+
+		<!-- Heading -->
+		<div class="sidebar-heading">Management(ADMIN)</div>
+		
+			<!-- Nav Item - Pages Collapse Menu -->
+			<li th:classappend="${#request.requestURI.startsWith('/job') ? 'active' : ''}" class="nav-item">
+				<a th:classappend="${#request.requestURI.startsWith('/job') ? '' : 'collapsed'}" class="nav-link" href="#" data-toggle="collapse" data-target="#job" aria-expanded="true" aria-controls="job"> 
+				<i class="fas fa-fw fa-cog"></i> <span>Job 관리</span></a>
+				
+				<div id="job" th:classappend="${#request.requestURI.startsWith('/job') ? 'show' : ''}" class="collapse" aria-labelledby="userbar" data-parent="#accordionSidebar">
+				<div class="bg-white py-2 collapse-inner rounded">
+<!-- 					<h6 class="collapse-header">Job</h6> -->
+					<a th:classappend="${#request.requestURI.startsWith('/job/') ? 'active' : ''}" class="collapse-item" th:href="@{/job/list}">Job 목록</a>					
+				</div>
+			</li>
+
+			<!-- Nav Item - Pages Collapse Menu -->
+			<li th:classappend="${#request.requestURI.startsWith('/node') ? 'active' : ''}" class="nav-item">
+				<a th:classappend="${#request.requestURI.startsWith('/node') ? '' : 'collapsed'}" class="nav-link" href="#" data-toggle="collapse" data-target="#node" aria-expanded="true" aria-controls="node"> 
+				<i class="fas fa-fw fa-cog"></i> <span>node 관리</span></a>
+				
+				<div id="node" th:classappend="${#request.requestURI.startsWith('/node') ? 'show' : ''}" class="collapse" aria-labelledby="userbar" data-parent="#accordionSidebar">
+				<div class="bg-white py-2 collapse-inner rounded">
+					<a th:classappend="${#request.requestURI.startsWith('/node/') ? 'active' : ''}" class="collapse-item" th:href="@{/node/list}">node 목록</a>					
+				</div>
+			</li>
+			
+			<!-- Nav Item - Pages Collapse Menu -->
+			<li th:classappend="${#request.requestURI.startsWith('/user') ? 'active' : ''}" class="nav-item">
+				<a th:classappend="${#request.requestURI.startsWith('/user') ? '' : 'collapsed'}" class="nav-link" href="#" data-toggle="collapse" data-target="#user" aria-expanded="true" aria-controls="user"> 
+				<i class="fas fa-fw fa-cog"></i> <span>user 관리</span></a>
+				
+				<div id="user" th:classappend="${#request.requestURI.startsWith('/user') ? 'show' : ''}" class="collapse" aria-labelledby="userbar" data-parent="#accordionSidebar">
+				<div class="bg-white py-2 collapse-inner rounded">
+					<a th:classappend="${#request.requestURI.startsWith('/user/') ? 'active' : ''}" class="collapse-item" th:href="@{/user/list}">user 목록</a>					
+				</div>
+			</li>			
+			
+	</ul>
+	<!-- End of Sidebar -->
+
+</th:block>
+
+</html>

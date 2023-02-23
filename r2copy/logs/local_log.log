@@ -1,0 +1,252 @@
+INFO  23-02-23 11:25:31[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 8108 (D:\git\r2copy-gram\r2copy\r2copy\bin\main started by wowji in D:\git\r2copy-gram\r2copy\r2copy)
+INFO  23-02-23 11:25:31[restartedMain] [R2copyApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-02-23 11:25:31[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 11:25:31[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 11:25:32[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 11:25:32[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:25:32[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 11:25:32[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-02-23 11:25:32[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 11:25:32[restartedMain] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 569 ms
+INFO  23-02-23 11:25:32[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  23-02-23 11:25:32[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:25:32[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 11:25:32[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 1.086 seconds (JVM running for 1.626)
+INFO  23-02-23 11:30:19[File Watcher] [LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+INFO  23-02-23 11:30:19[Thread-5] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:19[Thread-5] [StandardService:173] - Stopping service [Tomcat]
+INFO  23-02-23 11:30:19[Thread-5] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:19[Thread-5] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:19[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 8108 (D:\git\r2copy-gram\r2copy\r2copy\bin\main started by wowji in D:\git\r2copy-gram\r2copy\r2copy)
+INFO  23-02-23 11:30:19[restartedMain] [R2copyApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-02-23 11:30:19[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 11:30:19[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:19[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 11:30:19[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-02-23 11:30:19[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 11:30:19[restartedMain] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 113 ms
+INFO  23-02-23 11:30:19[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 11:30:19[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  23-02-23 11:30:19[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:19[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 11:30:19[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 0.176 seconds (JVM running for 288.841)
+INFO  23-02-23 11:30:19[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  23-02-23 11:30:24[File Watcher] [LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+INFO  23-02-23 11:30:24[Thread-7] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:24[Thread-7] [StandardService:173] - Stopping service [Tomcat]
+INFO  23-02-23 11:30:24[Thread-7] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:24[Thread-7] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:24[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 8108 (D:\git\r2copy-gram\r2copy\r2copy\bin\main started by wowji in D:\git\r2copy-gram\r2copy\r2copy)
+INFO  23-02-23 11:30:24[restartedMain] [R2copyApplication:631] - No active profile set, falling back to 1 default profile: "default"
+INFO  23-02-23 11:30:24[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 11:30:24[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:24[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 11:30:24[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+INFO  23-02-23 11:30:24[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 11:30:24[restartedMain] [ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 91 ms
+INFO  23-02-23 11:30:24[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 11:30:24[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  23-02-23 11:30:24[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:24[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 11:30:24[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 0.149 seconds (JVM running for 293.928)
+INFO  23-02-23 11:30:24[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  23-02-23 11:30:34[File Watcher] [LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] - Restarting due to 16 class path changes (16 additions, 0 deletions, 0 modifications)
+INFO  23-02-23 11:30:35[Thread-11] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:35[Thread-11] [StandardService:173] - Stopping service [Tomcat]
+INFO  23-02-23 11:30:35[Thread-11] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:35[Thread-11] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:30:35[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 8108 (D:\git\r2copy-gram\r2copy\r2copy\bin\main started by wowji in D:\git\r2copy-gram\r2copy\r2copy)
+INFO  23-02-23 11:30:35[restartedMain] [R2copyApplication:631] - No active profile set, falling back to 1 default profile: "default"
+ERROR 23-02-23 11:30:35[restartedMain] [SpringApplication:821] - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:193)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:153)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.r2comms.r2copy.R2copyApplication.main(R2copyApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.r2comms.r2copy.config.LayoutConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@9ff8826]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:252)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:245)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:235)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: LayoutDialect
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: LayoutDialect
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 42 common frames omitted
+WARN  23-02-23 11:30:35[restartedMain] [SpringApplication:793] - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.r2comms.r2copy.config.LayoutConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@9ff8826]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1684)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:669)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:661)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:864)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:852)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:839)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.r2comms.r2copy.R2copyApplication.main(R2copyApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: LayoutDialect
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: LayoutDialect
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 30 common frames omitted
+INFO  23-02-23 11:30:58[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 11:30:58[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 11:30:58[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 8108 (D:\git\r2copy-gram\r2copy\r2copy\bin\main started by wowji in D:\git\r2copy-gram\r2copy\r2copy)
+INFO  23-02-23 11:30:58[restartedMain] [R2copyApplication:631] - No active profile set, falling back to 1 default profile: "default"
+WARN  23-02-23 11:30:58[restartedMain] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.r2comms.r2copy.R2copyApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class] cannot be opened because it does not exist
+ERROR 23-02-23 11:30:58[restartedMain] [SpringApplication:821] - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.r2comms.r2copy.R2copyApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.r2comms.r2copy.R2copyApplication.main(R2copyApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getSuperClass(ConfigurationClassParser.java:1010)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:340)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:303)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 18 common frames omitted
+INFO  23-02-23 11:31:09[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 11.0.12 on DESKTOP-FHU38LB with PID 13636 (D:\git\r2copy-gram\r2copy\r2copy\bin\main started by wowji in D:\git\r2copy-gram\r2copy\r2copy)
+INFO  23-02-23 11:31:09[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 11:31:10[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 11:31:10[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 11:31:10[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 11:31:10[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 11:31:10[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 11:31:10[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 11:31:10[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 11:31:10[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 11:31:10[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 11:31:10[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 11:31:10[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 11:31:10[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 11:31:10[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 11:31:10[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 11:31:10[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 11:31:10[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 11:31:11[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 11:31:11[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:31:11[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 11:31:11[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 11:31:11[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 11:31:11[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1010 ms
+WARN  23-02-23 11:31:11[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 11:31:11[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 11:31:11[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-02-23 11:31:11[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-02-23 11:31:11[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-02-23 11:31:11[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-02-23 11:31:11[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 11:31:12[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 11:31:12[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 11:31:12[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@716c43b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@3925fddf, org.springframework.security.web.header.HeaderWriterFilter@361f9647, org.springframework.security.web.authentication.logout.LogoutFilter@73d9e7bd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11406a06, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b9ea5f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5eb1a385, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@75e78f2c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a20f4a9, org.springframework.security.web.session.SessionManagementFilter@25135612, org.springframework.security.web.access.ExceptionTranslationFilter@5b8e8d19, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e8e51a4]
+INFO  23-02-23 11:31:12[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 11:31:12[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 11:31:12[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 11:31:12[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 11:31:12[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 3.195 seconds (JVM running for 3.969)
+INFO  23-02-23 11:31:28[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-02-23 11:31:28[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-02-23 11:31:28[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-02-23 11:31:29[http-nio-8080-exec-1] [ApiCheckFilter:30] - REQUESTURI: /
+WARN  23-02-23 11:31:29[http-nio-8080-exec-1] [FragmentProcessor:75] - You don't need to put the layout:fragment/data-layout-fragment attribute into the <head> section - the decoration process will automatically copy the <head> section of your content templates into your layout page.
+INFO  23-02-23 11:31:31[http-nio-8080-exec-7] [ApiCheckFilter:30] - REQUESTURI: /login
+INFO  23-02-23 11:31:36[http-nio-8080-exec-10] [ApiCheckFilter:30] - REQUESTURI: /
