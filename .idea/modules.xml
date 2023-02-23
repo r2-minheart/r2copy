@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/r2copy.iml" filepath="$PROJECT_DIR$/.idea/r2copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/r2copy.r2copy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/r2copy.r2copy.main.iml" />
+    </modules>
+  </component>
+</project>

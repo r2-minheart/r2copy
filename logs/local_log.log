@@ -1,0 +1,445 @@
+INFO  23-02-23 16:46:47[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 19.0.2 on minheart with PID 17340 (C:\dev\workspace\r2copy\r2copy\build\classes\java\main started by minhe in C:\dev\workspace\r2copy)
+INFO  23-02-23 16:46:47[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 16:46:48[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 16:46:48[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 16:46:50[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 16:46:50[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 48 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 16:46:50[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 16:46:50[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 16:46:50[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 16:46:50[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 16:46:50[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 16:46:50[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 16:46:50[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 16:46:50[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 16:46:50[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 16:46:51[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 16:46:51[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 16:46:51[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 16:46:52[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 16:46:52[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 16:46:52[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 16:46:52[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 16:46:54[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 16:46:54[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 6517 ms
+WARN  23-02-23 16:46:54[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 16:46:55[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 16:46:56[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-02-23 16:46:56[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-02-23 16:46:57[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-02-23 16:46:57[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-02-23 16:46:57[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 16:46:59[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 16:46:59[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 16:47:01[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@187c0c78, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e9ef9b7, org.springframework.security.web.header.HeaderWriterFilter@1b7c6bec, org.springframework.security.web.authentication.logout.LogoutFilter@ece2ce9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4ca22a94, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21669655, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@124adae4, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@56c58aec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54c72d50, org.springframework.security.web.session.SessionManagementFilter@2b47b332, org.springframework.security.web.access.ExceptionTranslationFilter@590bf67, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b787a1d]
+INFO  23-02-23 16:47:02[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 16:47:04[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 16:47:04[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 16:47:04[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 16:47:04[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 18.239 seconds (JVM running for 30.838)
+INFO  23-02-23 16:47:41[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-02-23 16:47:41[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-02-23 16:47:41[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 12 ms
+INFO  23-02-23 16:48:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+WARN  23-02-23 16:48:01[http-nio-8080-exec-2] [SessionIdGeneratorBase:173] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [9,031] milliseconds.
+WARN  23-02-23 16:48:01[http-nio-8080-exec-1] [SessionIdGeneratorBase:173] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [19,871] milliseconds.
+INFO  23-02-23 16:48:02[http-nio-8080-exec-3] [ApiCheckFilter:30] - REQUESTURI: /login
+WARN  23-02-23 16:48:10[http-nio-8080-exec-3] [FragmentProcessor:75] - You don't need to put the layout:fragment/data-layout-fragment attribute into the <head> section - the decoration process will automatically copy the <head> section of your content templates into your layout page.
+INFO  23-02-23 16:48:13[http-nio-8080-exec-10] [ApiCheckFilter:30] - REQUESTURI: /login
+INFO  23-02-23 16:49:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 16:50:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 16:51:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 16:52:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 16:53:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 16:54:00[my-scheduled-task-pool-4] [Coordinator:17] - checkJob----my-scheduled-task-pool-4
+INFO  23-02-23 16:55:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 16:55:27[http-nio-8080-exec-7] [ApiCheckFilter:30] - REQUESTURI: /
+INFO  23-02-23 16:55:27[http-nio-8080-exec-4] [ApiCheckFilter:30] - REQUESTURI: /favicon.ico
+INFO  23-02-23 16:55:33[http-nio-8080-exec-3] [ApiCheckFilter:30] - REQUESTURI: /job/list
+INFO  23-02-23 16:55:36[http-nio-8080-exec-1] [ApiCheckFilter:30] - REQUESTURI: /node/list
+INFO  23-02-23 16:55:37[http-nio-8080-exec-10] [ApiCheckFilter:30] - REQUESTURI: /user/list
+INFO  23-02-23 16:55:38[http-nio-8080-exec-9] [ApiCheckFilter:30] - REQUESTURI: /user/list
+INFO  23-02-23 16:56:00[my-scheduled-task-pool-5] [Coordinator:17] - checkJob----my-scheduled-task-pool-5
+INFO  23-02-23 16:57:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 16:57:25[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 16:57:25[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-02-23 16:57:25[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-02-23 16:57:52[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 19.0.2 on minheart with PID 27720 (C:\dev\workspace\r2copy\r2copy\build\classes\java\main started by minhe in C:\dev\workspace\r2copy)
+INFO  23-02-23 16:57:52[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 16:57:53[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 16:57:53[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 16:57:54[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 16:57:54[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 23 ms. Found 0 JPA repository interfaces.
+INFO  23-02-23 16:57:54[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 16:57:54[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 16:57:54[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 16:57:54[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 16:57:54[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 16:57:54[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 16:57:54[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 16:57:54[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 16:57:54[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 16:57:54[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 16:57:55[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 16:57:55[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 16:57:55[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 16:57:55[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 16:57:55[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 16:57:55[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 16:57:55[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 16:57:55[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2561 ms
+WARN  23-02-23 16:57:55[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 16:57:56[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 16:57:56[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-02-23 16:57:56[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-02-23 16:57:56[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-02-23 16:57:56[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-02-23 16:57:56[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 16:57:57[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 16:57:57[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 16:57:58[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46a42586, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e2d5fcb, org.springframework.security.web.header.HeaderWriterFilter@7d3f886f, org.springframework.security.web.authentication.logout.LogoutFilter@5cf9ccb5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30a5a791, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@291f0f45, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74b6cd61, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@64222b55, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@be4b0b, org.springframework.security.web.session.SessionManagementFilter@50d795e9, org.springframework.security.web.access.ExceptionTranslationFilter@5106328a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@354509db]
+INFO  23-02-23 16:57:58[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 16:57:59[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 16:57:59[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 16:58:00[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 16:58:00[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 7.788 seconds (JVM running for 14.434)
+INFO  23-02-23 16:58:15[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-02-23 16:58:15[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-02-23 16:58:15[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 3 ms
+INFO  23-02-23 16:58:15[http-nio-8080-exec-1] [ApiCheckFilter:30] - REQUESTURI: /
+WARN  23-02-23 16:58:17[http-nio-8080-exec-1] [FragmentProcessor:75] - You don't need to put the layout:fragment/data-layout-fragment attribute into the <head> section - the decoration process will automatically copy the <head> section of your content templates into your layout page.
+INFO  23-02-23 16:58:20[http-nio-8080-exec-5] [ApiCheckFilter:30] - REQUESTURI: /
+INFO  23-02-23 16:58:22[http-nio-8080-exec-5] [ApiCheckFilter:30] - REQUESTURI: /login
+INFO  23-02-23 16:58:29[http-nio-8080-exec-9] [ApiCheckFilter:30] - REQUESTURI: /login
+WARN  23-02-23 16:58:43[http-nio-8080-exec-8] [SessionIdGeneratorBase:173] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,546] milliseconds.
+INFO  23-02-23 16:58:43[http-nio-8080-exec-7] [ApiCheckFilter:30] - REQUESTURI: /
+INFO  23-02-23 16:59:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 17:00:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 17:01:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 17:02:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 17:03:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 17:04:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 17:05:00[my-scheduled-task-pool-4] [Coordinator:17] - checkJob----my-scheduled-task-pool-4
+INFO  23-02-23 17:06:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 17:07:00[my-scheduled-task-pool-5] [Coordinator:17] - checkJob----my-scheduled-task-pool-5
+INFO  23-02-23 17:08:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 17:09:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 17:10:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 17:11:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:12:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:13:00[my-scheduled-task-pool-8] [Coordinator:17] - checkJob----my-scheduled-task-pool-8
+INFO  23-02-23 17:14:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 17:15:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:16:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:17:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:18:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:19:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:20:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:21:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:22:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:23:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:24:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:25:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:26:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:27:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:28:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 17:29:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 17:30:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 17:31:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:32:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:33:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:34:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:35:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:36:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:37:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:38:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:39:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:40:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:41:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:42:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:43:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:44:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:45:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:46:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:47:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:48:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:49:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:50:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:51:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:52:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 17:53:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 17:54:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 17:55:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 17:56:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 17:57:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 17:58:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 17:59:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 18:00:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 18:01:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 18:02:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 18:03:00[my-scheduled-task-pool-7] [Coordinator:17] - checkJob----my-scheduled-task-pool-7
+INFO  23-02-23 18:04:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:05:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:06:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:07:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:08:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:09:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:10:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:11:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:12:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:13:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:14:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:15:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:16:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:17:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:18:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:19:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:20:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:21:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:22:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:23:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:24:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:25:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:26:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:27:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:28:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:29:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:30:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:31:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:32:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:33:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:34:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:35:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:36:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:37:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:38:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:39:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:40:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:41:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:42:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:43:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:44:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:45:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:46:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:47:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:48:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:49:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:50:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:51:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:52:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:53:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:54:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:55:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:56:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:57:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:58:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 18:59:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:00:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:01:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:02:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:03:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:04:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:05:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:06:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:07:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:08:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:09:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:10:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:11:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:12:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:13:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:14:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:15:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:16:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:17:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:18:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:19:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:20:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:21:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:22:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:23:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:24:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:25:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:26:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:27:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:28:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:29:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:30:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:31:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:32:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:33:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:34:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:35:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:36:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:37:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:38:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:39:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:40:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:41:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:42:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:42:24[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 19:42:24[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-02-23 19:42:24[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-02-23 19:42:51[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 19.0.2 on minheart with PID 3240 (C:\dev\workspace\r2copy\r2copy\build\classes\java\main started by minhe in C:\dev\workspace\r2copy)
+INFO  23-02-23 19:42:51[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 19:42:52[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 19:42:52[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 19:42:53[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 19:42:53[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+INFO  23-02-23 19:42:53[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 19:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 19:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 19:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 19:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 19:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 19:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 19:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 19:42:53[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 19:42:53[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 19:42:54[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 19:42:54[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 19:42:54[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 19:42:54[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 19:42:54[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 19:42:54[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 19:42:54[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 19:42:54[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2509 ms
+WARN  23-02-23 19:42:54[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 19:42:55[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 19:42:55[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-02-23 19:42:55[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-02-23 19:42:55[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-02-23 19:42:55[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-02-23 19:42:55[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 19:42:56[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 19:42:56[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 19:42:57[restartedMain] [CustomLoginSuccessHandler:29] - CustomLoginSuccessHandler.................
+INFO  23-02-23 19:42:58[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@296b958a, org.springframework.security.web.context.SecurityContextPersistenceFilter@46c4eb93, org.springframework.security.web.header.HeaderWriterFilter@4e562aa7, org.springframework.security.web.authentication.logout.LogoutFilter@499609f9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3aa7c2b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53e6eee4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67e39846, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@656a56f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21e83dc, org.springframework.security.web.session.SessionManagementFilter@2a8f35e1, org.springframework.security.web.access.ExceptionTranslationFilter@4a68f8ca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b95effe]
+INFO  23-02-23 19:42:58[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 19:42:59[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 19:42:59[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 19:42:59[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 19:42:59[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 8.356 seconds (JVM running for 14.014)
+INFO  23-02-23 19:43:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 19:43:14[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-02-23 19:43:14[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-02-23 19:43:14[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-02-23 19:43:14[http-nio-8080-exec-1] [ApiCheckFilter:39] - REQUESTURI: /user/list
+WARN  23-02-23 19:43:15[http-nio-8080-exec-1] [FragmentProcessor:75] - You don't need to put the layout:fragment/data-layout-fragment attribute into the <head> section - the decoration process will automatically copy the <head> section of your content templates into your layout page.
+INFO  23-02-23 19:43:16[http-nio-8080-exec-7] [ApiCheckFilter:39] - REQUESTURI: /user/data.json
+INFO  23-02-23 19:43:16[http-nio-8080-exec-7] [UserController:34] - order json2 /user/list
+INFO  23-02-23 19:43:21[http-nio-8080-exec-8] [ApiCheckFilter:39] - REQUESTURI: /node/list
+INFO  23-02-23 19:43:23[http-nio-8080-exec-6] [ApiCheckFilter:39] - REQUESTURI: /job/list
+INFO  23-02-23 19:43:25[http-nio-8080-exec-3] [ApiCheckFilter:39] - REQUESTURI: /
+INFO  23-02-23 19:43:26[http-nio-8080-exec-10] [ApiCheckFilter:39] - REQUESTURI: /user/list
+INFO  23-02-23 19:43:27[http-nio-8080-exec-10] [ApiCheckFilter:39] - REQUESTURI: /user/data.json
+INFO  23-02-23 19:43:27[http-nio-8080-exec-10] [UserController:34] - order json2 /user/list
+INFO  23-02-23 19:43:34[http-nio-8080-exec-4] [ApiCheckFilter:39] - REQUESTURI: /user/list
+INFO  23-02-23 19:43:35[http-nio-8080-exec-4] [ApiCheckFilter:39] - REQUESTURI: /user/data.json
+INFO  23-02-23 19:43:35[http-nio-8080-exec-4] [UserController:34] - order json2 /user/list
+INFO  23-02-23 19:43:37[http-nio-8080-exec-5] [ApiCheckFilter:39] - REQUESTURI: /login
+WARN  23-02-23 19:43:38[http-nio-8080-exec-5] [SessionIdGeneratorBase:173] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,688] milliseconds.
+INFO  23-02-23 19:43:47[http-nio-8080-exec-9] [CustomLoginSuccessHandler:38] - welcome..................: r2comms
+INFO  23-02-23 19:43:47[http-nio-8080-exec-10] [ApiCheckFilter:39] - REQUESTURI: /
+INFO  23-02-23 19:43:51[http-nio-8080-exec-3] [ApiCheckFilter:39] - REQUESTURI: /user/list
+INFO  23-02-23 19:43:51[http-nio-8080-exec-6] [ApiCheckFilter:39] - REQUESTURI: /user/data.json
+INFO  23-02-23 19:43:51[http-nio-8080-exec-6] [UserController:34] - order json2 /user/list
+INFO  23-02-23 19:44:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 19:45:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 19:46:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 19:47:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:48:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 19:49:00[my-scheduled-task-pool-4] [Coordinator:17] - checkJob----my-scheduled-task-pool-4
+INFO  23-02-23 19:50:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 19:51:00[my-scheduled-task-pool-5] [Coordinator:17] - checkJob----my-scheduled-task-pool-5
+INFO  23-02-23 19:52:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:53:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:54:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:55:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:55:40[http-nio-8080-exec-4] [ApiCheckFilter:39] - REQUESTURI: /job/list
+INFO  23-02-23 19:55:41[http-nio-8080-exec-8] [ApiCheckFilter:39] - REQUESTURI: /
+INFO  23-02-23 19:55:42[http-nio-8080-exec-10] [ApiCheckFilter:39] - REQUESTURI: /
+INFO  23-02-23 19:56:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:57:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:58:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 19:59:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:00:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:01:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:02:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:03:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:04:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:05:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:06:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:07:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:08:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:09:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:10:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:11:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:12:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:13:00[my-scheduled-task-pool-9] [Coordinator:17] - checkJob----my-scheduled-task-pool-9
+INFO  23-02-23 20:14:00[my-scheduled-task-pool-4] [Coordinator:17] - checkJob----my-scheduled-task-pool-4
+INFO  23-02-23 20:15:00[my-scheduled-task-pool-4] [Coordinator:17] - checkJob----my-scheduled-task-pool-4
+INFO  23-02-23 20:16:00[my-scheduled-task-pool-4] [Coordinator:17] - checkJob----my-scheduled-task-pool-4
+INFO  23-02-23 20:17:00[my-scheduled-task-pool-4] [Coordinator:17] - checkJob----my-scheduled-task-pool-4
+INFO  23-02-23 20:18:00[my-scheduled-task-pool-4] [Coordinator:17] - checkJob----my-scheduled-task-pool-4
+INFO  23-02-23 20:19:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 20:20:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 20:21:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 20:22:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 20:23:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 20:24:00[my-scheduled-task-pool-10] [Coordinator:17] - checkJob----my-scheduled-task-pool-10
+INFO  23-02-23 20:24:05[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 20:24:05[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-02-23 20:24:05[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-02-23 20:24:43[restartedMain] [R2copyApplication:55] - Starting R2copyApplication using Java 19.0.2 on minheart with PID 28704 (C:\dev\workspace\r2copy\r2copy\build\classes\java\main started by minhe in C:\dev\workspace\r2copy)
+INFO  23-02-23 20:24:43[restartedMain] [R2copyApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-02-23 20:24:44[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  23-02-23 20:24:44[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  23-02-23 20:24:46[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-02-23 20:24:46[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+INFO  23-02-23 20:24:47[restartedMain] [EnableEncryptablePropertiesBeanFactoryPostProcessor:39] - Post-processing PropertySource instances
+INFO  23-02-23 20:24:47[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+INFO  23-02-23 20:24:47[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 20:24:47[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 20:24:47[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 20:24:47[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+INFO  23-02-23 20:24:47[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+INFO  23-02-23 20:24:47[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 20:24:47[restartedMain] [EncryptablePropertySourceConverter:56] - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+INFO  23-02-23 20:24:47[restartedMain] [DefaultLazyPropertyFilter:31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+INFO  23-02-23 20:24:47[restartedMain] [DefaultLazyPropertyResolver:35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+INFO  23-02-23 20:24:47[restartedMain] [DefaultLazyPropertyDetector:35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+INFO  23-02-23 20:24:48[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-02-23 20:24:48[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 20:24:48[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  23-02-23 20:24:48[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-02-23 20:24:49[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-02-23 20:24:49[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 4667 ms
+WARN  23-02-23 20:24:49[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-02-23 20:24:49[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-02-23 20:24:50[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-02-23 20:24:50[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-02-23 20:24:50[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-02-23 20:24:50[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-02-23 20:24:50[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+INFO  23-02-23 20:24:52[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-02-23 20:24:52[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-02-23 20:24:54[restartedMain] [CustomLoginSuccessHandler:29] - CustomLoginSuccessHandler.................
+INFO  23-02-23 20:24:54[restartedMain] [DefaultSecurityFilterChain:51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45ff56b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@e7383ce, org.springframework.security.web.header.HeaderWriterFilter@150e9556, org.springframework.security.web.authentication.logout.LogoutFilter@527f19cd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a8e6a61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ea3e855, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@466ab9d8, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1611e80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19391867, org.springframework.security.web.session.SessionManagementFilter@2a4f5947, org.springframework.security.web.access.ExceptionTranslationFilter@22b2abf7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56536efe]
+INFO  23-02-23 20:24:54[restartedMain] [WelcomePageHandlerMapping:57] - Adding welcome page template: index
+INFO  23-02-23 20:24:56[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  23-02-23 20:24:56[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-02-23 20:24:56[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-02-23 20:24:56[restartedMain] [R2copyApplication:61] - Started R2copyApplication in 14.195 seconds (JVM running for 25.526)
+INFO  23-02-23 20:25:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 20:26:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 20:27:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 20:28:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 20:29:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 20:30:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
+INFO  23-02-23 20:31:00[my-scheduled-task-pool-4] [Coordinator:17] - checkJob----my-scheduled-task-pool-4
+INFO  23-02-23 20:32:00[my-scheduled-task-pool-1] [Coordinator:17] - checkJob----my-scheduled-task-pool-1
+INFO  23-02-23 20:33:00[my-scheduled-task-pool-5] [Coordinator:17] - checkJob----my-scheduled-task-pool-5
+INFO  23-02-23 20:34:00[my-scheduled-task-pool-3] [Coordinator:17] - checkJob----my-scheduled-task-pool-3
+INFO  23-02-23 20:35:00[my-scheduled-task-pool-6] [Coordinator:17] - checkJob----my-scheduled-task-pool-6
+INFO  23-02-23 20:36:00[my-scheduled-task-pool-2] [Coordinator:17] - checkJob----my-scheduled-task-pool-2
