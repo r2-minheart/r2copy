@@ -41,15 +41,6 @@
 						</tr>
 					</thead>
 					
-					<tfoot>
-						<tr>
-							<th></th>
-							<th>SEQ</th>
-							<th>LoginId</th>
-							<th>Name</th>
-							<th>LastLoginDate</th>							
-						</tr>
-					</tfoot>
 				</table>
 				</div>
 			</div>
@@ -67,28 +58,6 @@
 			var pagelen = 10;
 			var requestURL = /*[[${#httpServletRequest.requestURI}]]*/null;
 			
-			$('#example1 tfoot th')
-			.each(
-				function(index) {
-					var title = $('#example1 thead th').eq(
-						$(this).index()).text();
-						
-							var colId = 'col_' + index;	
-							if (index == 0) {
-
-							}
-							else if (index == 1) {
-								$(this)
-								.html(
-									'<input type="text" id=' + colId + ' size="4" placeholder="'+title+'" />');	
-							}
-							else {
-								$(this)
-								.html(
-									'<input type="text" id=' + colId + ' size="8" placeholder="'+title+'" />');	
-							}										
-
-				});
 		
 			var table = $('#example1').removeAttr('width').DataTable({
 				
@@ -120,6 +89,7 @@
 					{'data': 'lastLoginDate'},
 				],
 				
+				// 첫번째 컬럼에 대한 정의
 				'columnDefs': [{
 			         'targets': 0,   		// // 맨앞을 설정하겠다.checkbox 넣으려고 비워뒀던 그거
 			         'searchable': false,
@@ -135,7 +105,8 @@
 					selector: 'td:first-child'
 				},			
 			});
-			
+
+						
 			table.on( 'select', function ( e, dt, type, indexes ) {
 				 var rows = table.rows(indexes).nodes();				
 				 $('input[type="checkbox"]', rows).prop('checked', true);
@@ -144,6 +115,8 @@
 				 var rows = table.rows(indexes).nodes();
 				 $('input[type="checkbox"]', rows).prop('checked', false);
 			});			
+			
+			
 			// 전체 체크 하는 부분
 			$(".dt_all_chk").on( "click", function(e) {		
 				
