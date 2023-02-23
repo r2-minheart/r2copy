@@ -56,7 +56,7 @@ public class ApiCheckFilter extends OncePerRequestFilter {
 
 				if (!username.equals("anonymousUser")) {
 					UserResponseDto userDto = userService.getUserByLoginId(username);
-					log.info("REQUESTURI: " + userDto);
+					// log.info("REQUESTURI: " + userDto);
 
 					if (userDto != null) {
 						request.getSession().setAttribute("login.loginId", username);
