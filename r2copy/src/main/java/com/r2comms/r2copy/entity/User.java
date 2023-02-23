@@ -59,4 +59,8 @@ public class User extends BaseEntity {
 		this.role = role;
 		this.role.getUserList().add(this);
 	}
+
+    public void updateLastLoginTime(LocalDateTime _now) {
+		this.lastLoginDate = _now;
+    }
 }

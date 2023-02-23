@@ -14,6 +14,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.r2comms.r2copy.security.filter.ApiCheckFilter;
+import org.springframework.security.web.authentication.AuthenticationFailureHandler;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 
 
 @Configuration
@@ -21,7 +23,10 @@ import com.r2comms.r2copy.security.filter.ApiCheckFilter;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private DataSource dataSource;
-	
+
+	@Autowired
+	private AuthenticationFailureHandler CustomAuthenticationFailureHandler;
+
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {		
 		http.csrf().disable();		
@@ -35,6 +40,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.formLogin()
 					.loginPage("/login")
 					 .defaultSuccessUrl("/")
+				.successHandler(successHandler())
+				.failureHandler(CustomAuthenticationFailureHandler)
 					.permitAll()
 					.and()
 				.logout()			  
@@ -61,6 +68,16 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //	public PasswordEncoder passwordEncoder() {
 //	    return new BCryptPasswordEncoder();
 //	}
+
+	@Bean
+	public AuthenticationSuccessHandler successHandler() {
+		return new CustomLoginSuccessHandler();
+	}
+
+	@Bean
+	public AuthenticationFailureHandler failureHandler() {
+		return new CustomAuthenticationFailureHandler();
+	}
 	
 	@Bean
 	public ApiCheckFilter apiCheckFilter() {
