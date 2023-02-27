@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      data-layout-decorate="~{backend/layout/default}">
+      data-layout-decorate="~{sb_admin/layout/default}">
 <!-- 타이틀 -->
 <head>
     <title>R2COPY - User List</title>
@@ -9,46 +9,58 @@
 
 <!-- 고유 CSS 추가 -->
 <th:block layout:fragment="css">
-		<link th:href="@{/admin/vendor/datatables-1.11.0/datatables.min.css}" rel="stylesheet">
+        <link th:href="@{/admin/vendor/datatables-1.11.0/datatables.min.css}" rel="stylesheet">        
 </th:block>
+
 <!-- 고유 스크립트 추가 -->
 <th:block layout:fragment="script">
 	<script th:src="@{/admin/vendor/datatables-1.11.0/datatables.min.js}"></script>
 </th:block>
 
+<th:block layout:fragment="footerscript">
+</th:block>
+
 <th:block layout:fragment="content">
-    <!-- Begin Page Content -->
-    <div class="container-fluid">
-    		<!-- Page Heading -->
-		<h1 class="h5 mb-4 text-gray-800">유저목록</h1>	
-		<p class="mb-4"></p>
-		
-		<!-- DataTales Example -->
-		<div class="card shadow mb-4">
-			<div class="card-header">
-			</div>
-		
-			<div class="card-body">
-				<div class="table-responsive">
-				<table id="example1" class="table table-bordered" width="100%">
-					<thead>
-						<tr>
-							<th><input type="checkbox" class="dt_all_chk" name="select_all" id="example-select-all"></th>
-							<th>SEQ</th>
-							<th>LoginId</th>
-							<th>Name</th>
-							<th>LastLoginDate</th>
-						</tr>
-					</thead>
-					
-				</table>
+	<main>
+                    <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
+                        <div class="container-xl px-4">
+                            <div class="page-header-content pt-4">
+                                <div class="row align-items-center justify-content-between">
+                                    <div class="col-auto mt-4">
+                                        <h1 class="page-header-title">
+                                            <div class="page-header-icon"><i data-feather="filter"></i></div>
+                                            Tables
+                                        </h1>
+                                        <div class="page-header-subtitle">An extension of the Simple DataTables library, customized for SB Admin Pro</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+		<div class="container-xl px-4 mt-n10">
+			<div class="card mb-4">
+				<div class="card-header">Extended DataTables</div>
+				<div class="card-body">
+					<table id="example1" class="table">
+						<thead>
+							<tr>
+								<th><input type="checkbox" class="dt_all_chk" name="select_all" id="example-select-all"></th>
+								<th>SEQ</th>
+								<th>LoginId</th>
+								<th>Name</th>
+								<th>LastLoginDate</th>
+							</tr>
+						</thead>
+					</table>
 				</div>
 			</div>
-			<!-- /.card-body -->
 		</div>
-		
-    </div>
-    <!-- /.container-fluid -->
+
+	</main>
+
+
+
 
 	<script type="text/javascript" th:inline="javascript">
 	    $(function() {

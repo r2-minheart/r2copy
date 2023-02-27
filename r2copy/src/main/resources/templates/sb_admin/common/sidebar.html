@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.w3.org/1999/xhtml">
+
+<th:block th:fragment="sidebarFragment">
+
+	<div id="layoutSidenav_nav">
+		<nav class="sidenav shadow-right sidenav-light">
+			<div class="sidenav-menu">
+				<div class="nav accordion" id="accordionSidenav">
+
+
+					<!-- Sidenav Menu Heading (Account)-->
+					<!-- * * Note: * * Visible only on and above the sm breakpoint-->
+					<div class="sidenav-menu-heading d-sm-none">Account</div>
+					<!-- Sidenav Link (Alerts)-->
+					<!-- * * Note: * * Visible only on and above the sm breakpoint-->
+					<a class="nav-link d-sm-none" href="#!">
+						<div class="nav-link-icon"><i data-feather="bell"></i></div>
+						Alerts
+						<span class="badge bg-warning-soft text-warning ms-auto">4 New!</span>
+					</a>
+					<!-- Sidenav Link (Messages)-->
+					<!-- * * Note: * * Visible only on and above the sm breakpoint-->
+					<a class="nav-link d-sm-none" href="#!">
+						<div class="nav-link-icon"><i data-feather="mail"></i></div>
+						Messages
+						<span class="badge bg-success-soft text-success ms-auto">2 New!</span>
+					</a>
+					<!-- Sidenav Menu Heading (Core)-->
+
+
+
+
+					<div class="sidenav-menu-heading">Core</div>
+					<!-- Sidenav Accordion (Dashboard)-->
+
+					<a th:classappend="${#request.requestURI.startsWith('/job') ? 'active' : 'collapsed'}" class="nav-link" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards1" aria-expanded="false" aria-controls="collapseDashboards1">
+						<div class="nav-link-icon"><i data-feather="activity"></i></div> Job
+						<div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+					</a>
+
+					<div th:classappend="${#request.requestURI.startsWith('/job') ? 'show' : ''}" class="collapse" id="collapseDashboards1" data-bs-parent="#accordionSidenav">
+						<nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+							<a th:classappend="${#request.requestURI.startsWith('/job') ? 'active' : ''}" class="nav-link" href="/job/list">Job List</a>
+						</nav>
+					</div>
+
+
+					<a th:classappend="${#request.requestURI.startsWith('/node') ? 'active' : 'collapsed'}" class="nav-link" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards2" aria-expanded="false" aria-controls="collapseDashboards2">
+						<div class="nav-link-icon"><i data-feather="activity"></i></div> Node
+						<div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+					</a>
+
+					<div th:classappend="${#request.requestURI.startsWith('/node') ? 'show' : ''}" class="collapse" id="collapseDashboards2" data-bs-parent="#accordionSidenav">
+						<nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+							<a th:classappend="${#request.requestURI.startsWith('/node') ? 'active' : ''}" class="nav-link" href="/node/list">Node List</a>
+						</nav>
+					</div>
+					
+					<a th:classappend="${#request.requestURI.startsWith('/user') ? 'active' : 'collapsed'}" class="nav-link" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards3" aria-expanded="false" aria-controls="collapseDashboards3">
+						<div class="nav-link-icon"><i data-feather="activity"></i></div> User
+						<div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+					</a>
+
+					<div th:classappend="${#request.requestURI.startsWith('/user') ? 'show' : ''}" class="collapse" id="collapseDashboards3" data-bs-parent="#accordionSidenav">
+						<nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+							<a th:classappend="${#request.requestURI.startsWith('/user') ? 'active' : ''}" class="nav-link" href="/user/list">User List</a>
+						</nav>
+					</div>					
+
+			
+			</div>
+
+
+
+			<!-- Sidenav Footer-->
+<!-- 			<div class="sidenav-footer"> -->
+<!-- 				<div class="sidenav-footer-content"> -->
+<!-- 					<div class="sidenav-footer-subtitle">Logged in as:</div> -->
+<!-- 					<div class="sidenav-footer-title">Valerie Luna</div> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+		</nav>
+	</div>
+
+
+</th:block>
+
+</html>

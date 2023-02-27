@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" 
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
+	xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+   
+    <!-- 공통 헤더-->
+    <head th:replace="~{sb_admin/common/header :: headerFragment}">
+        <title layout:title-pattern="$LAYOUT_TITLE - $CONTENT_TITLE"></title>
+    </head>
+
+    <!-- 공통 스크립트-->
+    <th:block th:replace="~{sb_admin/common/script :: scriptFragment}"></th:block>
+
+    <body class="nav-fixed">
+        <!-- 상단바-->
+        <th:block th:replace="~{sb_admin/common/topbar :: topbarFragment}"></th:block>
+
+        <div id="layoutSidenav">
+            <!-- 사이드바-->
+            <th:block th:replace="~{sb_admin/common/sidebar :: sidebarFragment}"></th:block>
+
+            <div id="layoutSidenav_content">
+                <!-- 본문-->
+                <th:block layout:fragment="content"></th:block>
+                <!-- 공통 하단-->
+                <th:block th:replace="~{sb_admin/common/footer :: footerFragment}"></th:block>
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="/sb-admin-pro/dist2/js/scripts.js"></script>
+
+        <!-- foot 고유 스크립트 추가 -->
+        <th:block layout:fragment="footerscript"></th:block>
+
+    </body>
+</html>

@@ -35,7 +35,6 @@ public class UserController {
 		List<UserResponseDto> data  = null;
 		
 		data = userService.getList();
-				
 		return data;
     }
 }

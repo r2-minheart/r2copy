@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+   
+    <!-- 공통 헤더-->   
+	<head th:replace="~{backend/common/header :: headerFragment}">
+		<title layout:title-pattern="$LAYOUT_TITLE - $CONTENT_TITLE"></title>
+	</head>
+	
+	<!-- 공통 스크립트-->
+    <th:block th:replace="backend/common/script :: scriptFragment"></th:block>	    
+   
+    <body class="bg-gradient-primary">
+
+    		<div class="container">
+                    
+                    <!-- 본문-->
+                    <th:block layout:fragment="content"></th:block>
+                    
+             </div>
+        
+    </body>
+
+</html>
