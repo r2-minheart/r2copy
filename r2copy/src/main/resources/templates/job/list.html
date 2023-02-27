@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      data-layout-decorate="~{backend/layout/default}">
+<!-- 타이틀 -->
+<head>
+    <title>R2COPY - User List</title>
+</head>
+
+<!-- 고유 CSS 추가 -->
+<th:block layout:fragment="css">
+		<link th:href="@{/admin/vendor/datatables-1.11.0/datatables.min.css}" rel="stylesheet">
+</th:block>
+<!-- 고유 스크립트 추가 -->
+<th:block layout:fragment="script">
+	<script th:src="@{/admin/vendor/datatables-1.11.0/datatables.min.js}"></script>
+</th:block>
+
+<th:block layout:fragment="content">
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+    		<!-- Page Heading -->
+		<h1 class="h5 mb-4 text-gray-800">유저목록</h1>	
+		<p class="mb-4"></p>
+		
+		<!-- DataTales Example -->
+		<div class="card shadow mb-4">
+			<div class="card-header">
+			</div>
+		
+			<div class="card-body">
+				<div class="table-responsive">
+				<table id="example1" class="table table-bordered" width="100%">
+					<thead>
+						<tr>
+							<th><input type="checkbox" class="dt_all_chk" name="select_all" id="example-select-all"></th>
+							<th>userId</th>
+							<th>LoginId</th>
+							<th>Name</th>
+							<th>LastLoginDate</th>
+						</tr>
+					</thead>
+					
+				</table>
+				</div>
+			</div>
+			<!-- /.card-body -->
+		</div>
+		
+    </div>
+    <!-- /.container-fluid -->
+
+	<script type="text/javascript" th:inline="javascript">
+	    $(function() {
+	    	
+	    	var sortedcol = 0;
+			var sorteddir = 'desc';
+			var pagelen = 10;
+			var requestURL = /*[[${#httpServletRequest.requestURI}]]*/null;
+			
+		
+			var table = $('#example1').removeAttr('width').DataTable({
+				
+				"order" : [ [ sortedcol, sorteddir ] ],
+				"pageLength" : pagelen,
+				orderCellsTop : true,
+				fixedHeader : true,
+				paging : false,
+		        "scrollY":        "550px",
+		        "scrollCollapse": true,
+		        
+		        'ajax': {
+					'url' : 'data.json', 
+					'dataSrc':'',	
+					'type': "POST",	
+		             data(d) {
+		                d.requestURL = requestURL;
+		             },	
+				    'beforeSend': function (request) {
+				    }
+				},
+	
+				'columns' : [
+					
+					{'data': 'userId' , "width": "5%"},
+					{'data': 'userId'},
+					{'data': 'loginId'},
+					{'data': 'fullNameEn'},
+					{'data': 'lastLoginDate'},
+				],
+				
+				// 첫번째 컬럼에 대한 정의
+				'columnDefs': [{
+			         'targets': 0,   		// // 맨앞을 설정하겠다.checkbox 넣으려고 비워뒀던 그거
+			         'searchable': false,
+			         'orderable': false,
+			         'className': 'dt-body-center',
+			         'render': function (data, type, full, meta){			        	
+			             	return '<input type="checkbox" name="id[]" value="' + $('<div/>').text(data).html() + '">';
+			         }
+			      }],
+			      
+				select: {
+					style: 'multi',
+					selector: 'td:first-child'
+				},			
+			});
+
+						
+			table.on( 'select', function ( e, dt, type, indexes ) {
+				 var rows = table.rows(indexes).nodes();				
+				 $('input[type="checkbox"]', rows).prop('checked', true);
+			});
+			table.on( 'deselect', function ( e, dt, type, indexes ) {
+				 var rows = table.rows(indexes).nodes();
+				 $('input[type="checkbox"]', rows).prop('checked', false);
+			});			
+			
+			
+			// 전체 체크 하는 부분
+			$(".dt_all_chk").on( "click", function(e) {		
+				
+				if ($(this).is( ":checked" )) {
+					table.rows(   { search: 'applied' } ).select();
+				} else {
+					table.rows(   { search: 'applied' } ).deselect();
+				}
+			});
+	    });
+    </script>
+
+
+</th:block>
+</html>
