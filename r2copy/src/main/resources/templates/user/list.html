@@ -9,12 +9,12 @@
 
 <!-- 고유 CSS 추가 -->
 <th:block layout:fragment="css">
-        <link th:href="@{/admin/vendor/datatables-1.11.0/datatables.min.css}" rel="stylesheet">        
+   <link th:href="@{/admin/vendor/datatables-1.11.0/datatables.min.css}" rel="stylesheet">        
 </th:block>
 
 <!-- 고유 스크립트 추가 -->
 <th:block layout:fragment="script">
-	<script th:src="@{/admin/vendor/datatables-1.11.0/datatables.min.js}"></script>
+ <script th:src="@{/admin/vendor/datatables-1.11.0/datatables.min.js}"></script>
 </th:block>
 
 <th:block layout:fragment="footerscript">
@@ -42,7 +42,7 @@
 			<div class="card mb-4">
 				<div class="card-header">Extended DataTables</div>
 				<div class="card-body">
-					<table id="example1" class="table">
+					<table id="example1" class="table cell-border" style="width:100%">
 						<thead>
 							<tr>
 								<th><input type="checkbox" class="dt_all_chk" name="select_all" id="example-select-all"></th>
@@ -50,6 +50,7 @@
 								<th>LoginId</th>
 								<th>Name</th>
 								<th>LastLoginDate</th>
+								<th>CreateDate</th>
 							</tr>
 						</thead>
 					</table>
@@ -95,6 +96,8 @@
 					{'data': 'loginId'},
 					{'data': 'fullNameEn'},
 					{'data': 'lastLoginDate'},
+					{'data': 'createDate'},
+
 				],
 				
 				// 첫번째 컬럼에 대한 정의
