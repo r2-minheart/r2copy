@@ -17,7 +17,7 @@ public class JobController {
 
     @GetMapping({"list"})
     public String list(Model model) {
-        return "index";
+        return "job/list";
     }
    
 }

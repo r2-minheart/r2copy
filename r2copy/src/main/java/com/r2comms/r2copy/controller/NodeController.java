@@ -17,6 +17,6 @@ public class NodeController {
 
     @GetMapping({"list"})
     public String list(Model model) {
-        return "index";
+        return "node/list";
     }
 }
