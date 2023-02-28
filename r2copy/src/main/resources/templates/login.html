@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" data-layout-decorate="~{backend/layout/default-simple}">
-<!-- 타이틀 -->
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" data-layout-decorate="~{sb_admin/layout/default-simple}">
 <!-- 타이틀 -->
 <head>
 <title>LOGIN</title>
@@ -13,50 +12,68 @@
 </th:block>
 
 <th:block layout:fragment="content">
+<div id="layoutAuthentication">
 
-	<!-- Outer Row -->
-	<div class="row justify-content-center">
+            <div id="layoutAuthentication_content">
+                <main>
+                    <div class="container-xl px-4">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5">
+                                <!-- Basic login form-->
+                                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                    <div class="card-header justify-content-center"><h3 class="fw-light my-4">Login</h3></div>
+                                    <div class="card-body">
+                                        <!-- Login form-->
+                                        <form th:action="@{/login}" method="post">
+                                            <!-- Form Group (email address)-->
+                                            <div class="mb-3">
+                                                <label class="small mb-1" for="username">username</label>
+                                                <input class="form-control" id="username" name="username" type="text" placeholder="Enter username" />
+                                            </div>
+                                            <!-- Form Group (password)-->
+                                            <div class="mb-3">
+                                                <label class="small mb-1" for="password">Password</label>
+                                                <input class="form-control" id="password" name="password" type="password" placeholder="Enter password" />
+                                            </div>
+                                            <!-- Form Group (remember password checkbox)-->
+                                            <div class="mb-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" id="remember-me" type="checkbox" name="remember-me" value="" />
+                                                    <label class="form-check-label" for="remember-me">Remember password</label>
+                                                </div>
+                                            </div>
+                                            <!-- Form Group (login box)-->
+                                            <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+                                                <a class="small" href="auth-password-basic.html">Forgot Password?</a>
+                                                <button class="btn btn-primary" type="submit"> Login </button>
+<!--                                                 <a class="btn btn-primary" href="dashboard-1.html">Login</a> -->
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <div class="small"><a href="auth-register-basic.html">Need an account? Sign up!</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
 
-		<div class="col-xl-10 col-lg-12 col-md-9">
-
-			<div class="card o-hidden border-0 shadow-lg my-5">
-				<div class="card-body p-0">
-					<!-- Nested Row within Card Body -->
-					<div class="row">
-						<div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
-						<div class="col-lg-6">
-							<div class="p-5">
-								<div class="text-center">
-									<h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
-								</div>
-								
-    
-								<form class="user" th:action="@{/login}" method="post">
-									<div class="form-group">
-										<input type="text" class="form-control form-control-user" id="username" name="username" placeholder="Login Id">
-									</div>
-									<div class="form-group">
-										<input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Password">
-									</div>
-									
-									<div class="form-group">								    
-									    <div class="col-xs-10">
-									        <input id="remember-me" type="checkbox" name="remember-me"  /> <label class="control-label col-xs-2" for="remember-me"> 로그인 유지 </label>
-									    </div>
-									</div>
-									
-									<button class="btn btn-primary btn-user btn-block" type="submit"> Login </button>
-									
-								</form>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
+            <div id="layoutAuthentication_footer">
+                <footer class="footer-admin mt-auto footer-dark">
+                    <div class="container-xl px-4">
+                        <div class="row">
+                            <div class="col-md-6 small">Copyright &copy; Your Website 2021</div>
+                            <div class="col-md-6 text-md-end small">
+                                <a href="#!">Privacy Policy</a>
+                                &middot;
+                                <a href="#!">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+</div>
 </th:block>
 </html>

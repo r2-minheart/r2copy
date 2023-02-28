@@ -17,10 +17,11 @@
 
         <div id="layoutSidenav">
             <!-- 사이드바-->
+          
             <th:block th:replace="~{sb_admin/common/sidebar :: sidebarFragment}"></th:block>
 
             <div id="layoutSidenav_content">
-                <!-- 본문-->
+             	<!-- 본문-->
                 <th:block layout:fragment="content"></th:block>
                 <!-- 공통 하단-->
                 <th:block th:replace="~{sb_admin/common/footer :: footerFragment}"></th:block>
