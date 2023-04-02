@@ -1,6 +1,7 @@
 package com.r2comms.r2copy.service;
 
 import com.r2comms.r2copy.dto.JobResponseDto;
+import com.r2comms.r2copy.entity.Job;
 import com.r2comms.r2copy.repository.JobRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
@@ -9,6 +10,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import javax.transaction.Transactional;
@@ -39,5 +41,10 @@ public class JobService {
 			job.updateStatus(status);
 			jobRepository.save(job);
 		});
+	}
+
+	public JobResponseDto getOne(Long jobId) {
+		Optional<Job> result =	jobRepository.findById(jobId);		
+		return result.isPresent() ? new JobResponseDto(result.get()) : null;
 	}
 }

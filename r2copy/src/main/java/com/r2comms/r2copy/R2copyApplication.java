@@ -16,7 +16,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 @EnableJpaAuditing
-public class R2copyApplication implements ApplicationRunner {
+public class R2copyApplication implements ApplicationRunner  {
 
 	public static void main(String[] args) {
 		

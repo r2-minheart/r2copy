@@ -31,10 +31,11 @@
                             </div>
                         </div>
                     </header>
+                    
                     <!-- Main page content-->
                     <div class="container-xl px-4 mt-n10">
                         <div class="row">
-                        	   <div class="col-lg-9">
+                        	   <div class="col-lg-6">
                         	   		 <div id="default">
                         	   		 		 <div class="card mb-4">
                         	   		 		 
@@ -44,20 +45,48 @@
 			                                            	<div class="sbp-preview">
 				                                                <div class="sbp-preview-content">
 				                                                
-				                                                        <form>
+				                                                        <form th:object="${job}">
 																		  <div class="form-group">
-																		    <label for="exampleInputEmail1">Email address</label>
-																		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-																		    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+																		    <label for="jobId">Job Id</label>
+																		    <input type="text" class="form-control" id="jobId" name="jobId" th:value="*{jobId}" readonly>
 																		  </div>
+																		  
 																		  <div class="form-group">
-																		    <label for="exampleInputPassword1">Password</label>
-																		    <input type="password" class="form-control" id="exampleInputPassword1">
+																		    <label for="jobName">job Name</label>
+																		    <input type="text" class="form-control" id="jobName" name="jobName" th:value="*{jobName}">
 																		  </div>
-																		  <div class="form-group form-check">
-																		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-																		    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+																		  
+																		  <div class="form-group">
+																		    <label for="rclonePath">rclone Path</label>
+																		    <input type="text" class="form-control" id="rclonePath" name="rclonePath" th:value="*{rclonePath}">
 																		  </div>
+
+																		  <div class="form-group">
+																		    <label for="rcloneCmd">rclone Cmd</label>
+																		    <input type="text" class="form-control" id="rcloneCmd" name="rcloneCmd" th:value="*{rcloneCmd}">
+																		  </div>
+																		  
+																		  <div class="form-group">
+																		    <label for="rcloneOption">rclone Option</label>
+																		    <input type="text" class="form-control" id="rcloneOption" name="rcloneOption" th:value="*{rcloneOption}">
+																		  </div>
+																		  																		  
+																		  <div class="form-group">
+																		    <label for="srcPath">srcPath</label>
+																		    <input type="text" class="form-control" id="srcPath" name="srcPath" th:value="*{srcPath}">
+																		  </div>
+																		  
+																		  <div class="form-group">
+																		    <label for="targetPath">targetPath</label>
+																		    <input type="text" class="form-control" id="targetPath" name="targetPath" th:value="*{targetPath}">
+																		  </div>
+
+																		  																		  																		  
+																		  <div class="form-group">
+																		    <label for="logPath">logPath</label>
+																		    <input type="text" class="form-control" id="logPath" name="logPath" th:value="*{logPath}">
+																		  </div>
+																		  																		  
 																		  <button type="submit" class="btn btn-primary">Submit</button>
 																		</form>
 				                                                

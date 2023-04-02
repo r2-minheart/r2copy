@@ -92,8 +92,19 @@
 				'columns' : [
 					
 					{'data': 'jobId' , "width": "5%"},
-					{'data': 'jobId'},
-					{'data': 'jobName'},
+					{
+						'mData': 'jobId',
+						'mRender' : function (data, type, row) {
+											return  "<a href='detail?jobId=" + data + "'>" + data+ "</a>";
+									}
+					},
+					
+					{
+						'mData': 'jobName',
+						'mRender' : function (data, type, row) {
+											return  "<a href='detail?jobId=" + row.jobId + "'>" + data+ "</a>";
+									}
+					},
 					
 					{'data': 'workerId'},
 					{'data': 'status'},

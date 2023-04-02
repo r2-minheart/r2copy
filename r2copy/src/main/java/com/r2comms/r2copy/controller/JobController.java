@@ -30,7 +30,11 @@ public class JobController {
     }
     
     @GetMapping({"detail"})
-    public String detail(Model model) {
+    public String detail(Long jobId, Model model) {
+    	
+    	JobResponseDto jobDto = jobService.getOne(jobId);    	
+    	model.addAttribute("job", jobDto);
+    	
         return "job/detail";
     }
    
