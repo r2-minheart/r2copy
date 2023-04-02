@@ -6,10 +6,13 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service
 public class CommandLineExecutor {
+
+
 	
     /**
      * cmd 명령어 실행
@@ -39,6 +42,8 @@ public class CommandLineExecutor {
         cmdList.add(cmd);
         String[] array = cmdList.toArray(new String[cmdList.size()]);
  
+        System.out.println(cmd);
+        
         try {
  
             // 명령어 실행
@@ -82,7 +87,7 @@ public class CommandLineExecutor {
 
             if (errorOutput.toString().isEmpty() == false) {
               System.out.println("오류");
-              System.out.println(successOutput.toString());
+              System.out.println(errorOutput.toString());
             }
  
         } catch (IOException e) {

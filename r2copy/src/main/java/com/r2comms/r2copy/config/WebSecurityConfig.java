@@ -32,7 +32,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		http.csrf().disable();		
 		http
 			.authorizeRequests()			
-				.antMatchers( "/**",	"/sb-admin-pro/**",										
+				.antMatchers( "/**",	"/sb-admin-pro/**",									
 						"/admin/**").permitAll()
 				//.antMatchers("/", "/job/**", "/node/**", "/user/**").hasRole("ADMIN")						
 				.anyRequest().authenticated()
