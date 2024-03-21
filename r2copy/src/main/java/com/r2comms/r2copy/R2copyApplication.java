@@ -22,7 +22,7 @@ public class R2copyApplication implements ApplicationRunner  {
 		
 		
 		for (int i=0; i < args.length; i++) {
-			System.out.println("------------------:" + args[i]);
+			System.out.println("main ------------------:" + args[i]);
 		}
 				
 		SpringApplication.run(R2copyApplication.class, args);
@@ -38,7 +38,7 @@ public class R2copyApplication implements ApplicationRunner  {
 	public void run(ApplicationArguments args) throws Exception {
 		// TODO Auto-generated method stub
 	    for (String name : args.getOptionNames()){
-	    	System.out.println(name + "=" + args.getOptionValues(name).get(0));
+	    	System.out.println("run:" + name + "=" + args.getOptionValues(name).get(0));
 	    }
 	}
 
